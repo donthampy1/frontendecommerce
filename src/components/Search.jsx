@@ -22,7 +22,7 @@ const Search = () => {
     const autoComplete = async (search) => {
         try{
             console.log('working')
-            const response = await fetch(`http://localhost:3000/autocomplete/search?q=${search}`)
+            const response = await fetch(`https://ecommerce-backend-1-s235.onrender.com/autocomplete/search?q=${search}`)
             const data = await response.json()
             setSuggestion(data)
         }catch (err){
