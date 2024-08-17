@@ -30,7 +30,7 @@ const MobileForm = ({ category }) => {
     formData.append('nameLower', nameLower)
 
     try {
-      const response = await axios.post('http://localhost:3000/addproducts/mobile/add', formData, {
+      const response = await axios.post('https://ecommerce-backend-1-s235.onrender.com/addproducts/mobile/add', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
