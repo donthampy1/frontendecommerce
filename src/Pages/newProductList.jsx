@@ -24,7 +24,7 @@ const ProductList = () => {
           maxPrice: filters.priceRange[1]
         }).toString();
 
-        const response = await fetch(`http://localhost:3000/productsearch/search?${query}`);
+        const response = await fetch(`https://ecommerce-backend-1-s235.onrender.com/productsearch/search?${query}`);
         const data = await response.json();
         setProductData(data);
       } catch (err) {
