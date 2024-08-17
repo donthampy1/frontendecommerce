@@ -26,7 +26,7 @@ function Home() {
             color: '#1976d2', 
             fontWeight: 'bold' 
           }}
-        > Type in 'laptop 8gb'
+        > Type in 'laptop 8gb' core features enabled 
           Thank you for considering me
         </Typography>
         <Typography 
